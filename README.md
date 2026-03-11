@@ -16,7 +16,7 @@ These Claude Code plugins help Claude navigate each of these — activating the 
 **From terminal:**
 
 ```bash
-claude plugin marketplace add st0012/ruby-skills
+claude plugin marketplace add flavegmbh/ruby-skills
 
 # Install both for the full experience, or just ruby-skills for version management without LSP
 claude plugin install ruby-skills@ruby-skills
@@ -26,7 +26,7 @@ claude plugin install ruby-lsp@ruby-skills
 **From a Claude session:**
 
 ```bash
-/plugin marketplace add st0012/ruby-skills
+/plugin marketplace add flavegmbh/ruby-skills
 /plugin install ruby-skills@ruby-skills
 /plugin install ruby-lsp@ruby-skills
 ```
@@ -60,7 +60,7 @@ The version manager detection logic is based on [Ruby LSP's VS Code extension](h
 
 ## Contributing
 
-Feedback, use cases, issue reports, and contributions are all welcome on [GitHub](https://github.com/st0012/ruby-skills).
+Forked from [st0012/ruby-skills](https://github.com/st0012/ruby-skills). Feedback, use cases, issue reports, and contributions are welcome on [GitHub](https://github.com/flavegmbh/ruby-skills).
 
 ## License
 
